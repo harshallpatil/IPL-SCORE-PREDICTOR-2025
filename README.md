@@ -69,11 +69,14 @@ IPL_Win_Predictor/
 🙋‍♂️ Author
 
 Harshal Patil
+
 Aspiring Data Scientist | Cricket Lover | Machine Learning Enthusiast
 
 ---
 
 📸 Preview
+
+project link -->  https://iplwinprediction-jld6ywdqdddjav2vyibqt2.streamlit.app/
 
 ![Screenshot 2025-05-30 135451](https://github.com/user-attachments/assets/639feb11-7d83-4f39-b2b4-b1d0e44bb364)
 
