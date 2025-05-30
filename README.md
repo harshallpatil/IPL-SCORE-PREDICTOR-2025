@@ -1,56 +1,79 @@
-# 🏏 IPL Win Predictor 🎯
-📌 Project Overview
-This project is an interactive web application built using Streamlit that allows users to:
+# 🏏 IPL Win Predictor – Real-Time Match Outcome Estimator using Machine Learning
 
-Select batting and bowling teams
+A smart and interactive machine learning-based web application that predicts the probability of a team winning an IPL match based on current match conditions. Built using Python and Streamlit, this project is designed for cricket enthusiasts, data science learners, and developers interested in real-time predictive analytics.
 
-Input match details like city, score, overs, and wickets
+---
 
-Predict the winning probability of the batting team using a trained machine learning pipeline
+## 📌 Project Overview
 
-The model uses real-time match inputs and returns a probability distribution for each team winning the match.
+This project provides an intuitive user interface to input live match stats such as the batting team, bowling team, score, overs, wickets, and venue. It returns the predicted probability of the batting team winning the match using a trained ML pipeline based on historical IPL data.
 
-------
+---
 
+## 🚀 Features
 
-🚀 Features
-Dropdowns for team and city selection
+- 🧠 ML-powered predictions based on real-time match input
+- 🖥️ Interactive web interface using Streamlit
+- 🔮 Probability output for win prediction
+- ✅ Lightweight and runs locally
+- 📊 Easy to extend and retrain with more features
 
-Dynamic input for match progress (score, overs, wickets)
+---
 
-Backend ML model built using match statistics
+## 🧰 Tech Stack
 
-Intuitive UI using Streamlit
+| Component     | Technology        |
+|---------------|-------------------|
+| Web Framework | Streamlit         |
+| Programming   | Python             |
+| ML Libraries  | Pandas, Scikit-learn |
+| Model Format  | Pickle (`pipe.pkl`) |
+| Deployment    | Localhost via Streamlit |
 
-Real-time winning probability predictions
+---
 
-------
-
-🔧 Tech Stack
-
-| Layer          | Tools/Technologies                                   |
-| -------------- | ---------------------------------------------------- |
-| **Frontend**   | Streamlit (Python-based Web UI)                      |
-| **Backend**    | Python, Pandas, Scikit-learn                         |
-| **ML Model**   | Logistic Regression / Pipeline (Saved as `pipe.pkl`) |
-| **Deployment** | Localhost via Streamlit                              |
-
------
+## 📁 Project Structure
 
 IPL_Win_Predictor/
-│
-├── app.py                  # Main Streamlit app
-├── pipe.pkl                # Pre-trained ML pipeline
-├── model_building.ipynb    # Notebook for model training
-├── requirements.txt        # Project dependencies
-└── README.md               # Project description
+├── app.py # Main Streamlit web application
+├── pipe.pkl # Trained machine learning pipeline
+├── model_building.ipynb # Jupyter notebook for model training
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation (this file)
+
+---
+
+## 📈 ML Model Overview
+
+- **Type**: Classification (Win / Lose)
+- **Algorithm**: Logistic Regression (via Scikit-learn Pipeline)
+- **Features Used**:
+  - Batting Team
+  - Bowling Team
+  - City
+  - Runs Left
+  - Balls Left
+  - Wickets Remaining
+  - Current Run Rate (CRR)
+  - Required Run Rate (RRR)
+
+- **Output**: Probability score for win/loss prediction
+
+---
 
 
-IPL_Win_Predictor/
-│
-├── app.py                  # Main Streamlit app
-├── pipe.pkl                # Pre-trained ML pipeline
-├── model_building.ipynb    # Notebook for model training
-├── requirements.txt        # Project dependencies
-└── README.md               # Project description
+📊 Dataset -->  https://www.kaggle.com/datasets/patrickb1912/ipl-complete-dataset-20082020?select=matches.csv
+
+---
+
+🙋‍♂️ Author
+
+Harshal Patil
+Aspiring Data Scientist | Cricket Lover | Machine Learning Enthusiast
+
+---
+
+📸 Preview
+
+![Screenshot 2025-05-30 135451](https://github.com/user-attachments/assets/639feb11-7d83-4f39-b2b4-b1d0e44bb364)
 
