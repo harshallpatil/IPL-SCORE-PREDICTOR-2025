@@ -39,7 +39,7 @@ Real-time winning probability predictions
 
 📂 Project Structure
 IPL_Win_Predictor/
-│
+
 ├── app.py                  # Main Streamlit app
 ├── pipe.pkl                # Pre-trained ML pipeline
 ├── model_building.ipynb    # Notebook for model training
